@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-------------------------------------------- Navbar--------------------------------------------*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+   align-content: center;
+    justify-content: space-between;
+}
+/*--------------------------- logo block-------------------------------*/
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(images/amazon_logo.png);
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+/*--------------------------- address block-------------------------------*/
+.address{
+    height: 50px;
+    width: 85px;  
+    align-items: center; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+.add-sec{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*--------------------------- Search block-------------------------------*/
+.searchbar{
+    display: flex ;
+    width: 620px;
+    border-radius: 4px;
+}
+select{
+    height: 38px;
+    width: 50px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    text-align: center;
+}
+.search{
+   
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f08804 ;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.border2{
+    border: 1.5px solid transparent;
+}
+.border2:hover{
+    border: 3px solid #f9a638;
+    border-radius: 4px;
+}
+/*--------------------------Accounts-----------------------------*/
+.Accounts{
+   height: 50px;
+   width: 140px;
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+.acc-fir{
+    font-size: 0.85rem;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.acc-sec{
+    font-size: 1rem;
+    width: 135px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+}
+/*------------------------Orders-----------------------------*/
+.orders{
+       height: 50px;
+       width: 77px;
+       margin: 5px;
+       row-gap:normal ;
+}
+.ord-fir{
+    font-size: 0.85rem;
+    margin-top: 7px;
+}
+.ord-sec{
+    font-size: 1rem;
+}
+/*---------------------Cart-------------------------------*/
+.cart{
+    display: flex;
+}
+.cart-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+#cart{
+    margin-top: 12px;
+}
+/*---------------------------Sub-Navbar-------------------------------------*/
+.sub-nav{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.menu{
+    height: 39px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bars{
+    font-size: 1.4rem;
+}
+.all{
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+.deals{
+    height: 39px;
+    width: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers{
+    height: 39px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registry{
+    height: 39px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Giftcards{
+    height: 39px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sell{
+    height: 39px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------------------------Background--------------------------------*/
+.backg{
+    height: 400px;
+    background-image: url("images/big_background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.backg-msg{
+    height: 40px;
+    width: 96.6%;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6F6;
+    color: black;
+    position: relative;
+    top: 330px;
+}
+.backg-msg a {
+   color: #007185;
+}
+/*------------------------------Shopping-Section------------------------------------*/
+.ss{
+    height: 1050px;
+    background-color: #FAD5EC;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 23%;
+    height: 350px;
+    background-color: white;
+}
+ h2{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+.box p{
+    color: #007185;
+    margin-left: 1rem;
+}
+.img1{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-1.png");
+    background-size: cover;
+    margin: 1rem;
+}
+.img2{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-2.png");
+    background-size: cover;
+    margin: 1rem;
+}
+.img3{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-3.png");
+    background-size: cover;
+    margin: 1rem;
+}
+.img4{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-4.png");
+    background-size: cover;
+    margin: 1rem;
+}
+.img5{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-5.jpg");
+    background-size: cover;
+    margin: 1rem;
+}
+.img6{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-6.jpg");
+    background-size: cover;
+    margin: 1rem;
+}
+.img7{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-7.jpg");
+    background-size: cover;
+    margin: 1rem;
+}
+.img8{
+    height: 250px;
+    width: 250px;
+    background-image: url("images/img-8.jpg");
+    background-size: cover;
+    margin: 1rem;
+}
+/*-----------------------------Movies--------------------------------------*/
+.movies{
+    height: 282px;
+    width: 96.6%;
+    background-color: white;
+}
+.posters{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pos{
+    height: 210px;
+    width: 156px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.pos1{
+    background-image: url("images/berserk.jpeg");
+    background-size: cover;
+}
+.pos2{
+    background-image: url("images/creator-poster.jpg");
+    background-size: cover;
+}
+.pos3{
+    background-image: url("images/opp-post.jpg");
+    background-size: cover;
+}
+.pos4{
+    background-image: url("images/incep.jpg");
+    background-size: cover;
+}
+.pos5{
+    background-image: url("images/interst.jpeg");
+    background-size: cover;
+}
+.pos6{
+    background-image: url("images/pulp.jpg");
+    background-size: cover;
+}
+.pos7{
+    background-image: url("images/boys.jpg");
+    background-size: cover;
+}
+/*-------------------Footer-----------------------------------*/
+.foot-1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-2{
+    background-color: #232F3E;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    font-size: 0.85rem;
+    color: #cccccc;
+    display: block;
+    margin: 0.7rem;
+}
+ul p {
+    margin-top: 3rem;
+    margin-left: 0.78rem;
+    font-size: 1rem;
+}
+.foot-3{
+    background-color: #232F3E;
+    border-top: 0.001px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(images/amazon_logo.png);
+}
+.foot-4{
+    height: 45px;
+    background-color: #131A22;
+    color: white;   
+    text-align: center;
+    padding-top: 1rem;
+}
+.user-agg{
+    font-size: 0.80rem;
+    text-align: center;
+}
+.copyright{
+    font-size: 0.80rem;
+    text-align: center;
+}
+
+
+
+
+
