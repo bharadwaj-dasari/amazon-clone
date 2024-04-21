@@ -21,4 +21,7 @@ Acknowledgements
 The design and layout of the Amazon website served as inspiration for this project.
 We extend our gratitude to "Apna College" for their guidance and support throughout the development process.
 
+Author - Bharadwaj Dasari
+
+
 
